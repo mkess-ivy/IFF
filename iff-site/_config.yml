@@ -1,0 +1,9 @@
+# Site settings
+title: Ingram Family Foundation
+description: > # this means to ignore newlines until "baseurl:"
+  Ingram Family Foundation is a non-profit organization with a mission to promote thoughtful analysis, discussions and actions that will help to create a prosperous and equitable future for Black communities.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.theingramfamilyfoundation.org" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

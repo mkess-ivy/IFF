@@ -1,0 +1,36 @@
+.main_header {
+	border-top: $red 4px solid;
+	text-align: center;
+	position: relative;
+
+	@include tablet {
+		margin-bottom: 25px;
+	}
+
+	.menu_btn {
+		color: $red;
+		display: block;
+		padding: 10px 0;
+
+		@include tablet {
+			padding: 10px 0 40px;
+		}
+		
+		.menu_btn_btn {
+			font-size: 45px;
+		}
+
+		.menu_btn_text {
+			display: none;
+
+			@include tablet {
+				display: block;
+				font-size: 12px;
+				margin-top: 5px;
+				text-transform: uppercase;	
+			}
+		}
+	}
+}
+
+

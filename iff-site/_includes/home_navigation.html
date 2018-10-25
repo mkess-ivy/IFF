@@ -1,0 +1,11 @@
+{% for nav in site.data.navigation %}
+<div class="col-sm-1-3 home_nav">
+	
+	<div class="section_header">{{ nav.header }}<span>{{ nav.subheader }}</span></div>
+	<div class="copy copy_height">
+		{{ nav.copy }}
+	</div>
+	
+	{% include cta.html cta-text="Learn More" %}
+</div>
+{% endfor %}

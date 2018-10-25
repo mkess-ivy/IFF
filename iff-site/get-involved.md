@@ -1,0 +1,47 @@
+---
+layout: default
+title: Get Involved
+permalink: /get-involved/
+
+masthead_bg: /img/hero_getinvolved.jpg
+---
+
+<div class="blue_layout">
+	<div class="frow wrapper">
+		<!-- <div class="section_title title_get_involved">{{ page.title }}</div> -->
+
+		<div class="frow">
+
+			<div class="col-sm-3-5 copy">
+				<p>The Ingram Family Foundation is a 501(c)(3) organization.  Our journey starts with your tax deductible contribution.</p>
+			</div>
+		</div>
+
+		<div class="section_title title_get_involved">To Donate</div>
+
+		<div class="frow wrapper">
+			<div class="col-sm-2-5 donate_wrapper">
+				<div class="donate_title">Online</div>
+
+				<a class="cta donate" href="https://npo.justgive.org/basket?acton=donate&ein=47-1649213">
+					<div>Donate</div>
+				</a>
+				
+			</div>
+			<div class="separator"></div>
+			<div class="col-sm-2-5 donate_wrapper">
+				<div class="donate_title">Mail</div>
+
+				<p>Please make checks payable to:</p>
+
+				Ingram Family Foundation, Inc.
+				P.O. Box 5780
+				Pikesville, Maryland 21282
+				
+			</div>
+		</div>
+	</div>
+
+	
+	
+</div>

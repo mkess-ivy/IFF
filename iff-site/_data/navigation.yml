@@ -1,0 +1,14 @@
+- header: "Who"
+  subheader: "We Are"
+  copy: "Our vision is that the Black community will embrace a journey of a more prosperous and equitable future."
+  cta-url: "/who-we-are/"
+
+- header: "What"
+  subheader: "We Do"
+  copy: "Our mission is to promote thoughtful analysis, discussions and actions that will change our present-day existence."
+  cta-url: "/what-we-do/"
+
+- header: "Get"
+  subheader: "Involved"
+  copy: "The Ingram Family Foundation is a 501(c)(3) organization. The journey starts with our community. "
+  cta-url: "/get-involved/"

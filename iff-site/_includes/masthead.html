@@ -1,0 +1,21 @@
+<!-- MastHead -->
+{% unless page.title == "Home" %}
+<div class="section_title_header">{{ page.title }}</div>
+{% endunless %}
+
+<div class="masthead_hero" style="background-image:url({{ page.masthead_bg }});">
+
+	{% if include.masthead-quote %}
+	<div class="quote">
+		{{ include.masthead-quote }}
+	</div>
+	{% endif %}
+
+	<!-- {% unless page.title == "Home" %}
+	<div class="frow centered">
+		<div class="masthead_title">{{ page.title }}</div>
+	</div>
+	{% endunless %} -->
+
+
+</div>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    {% if page.id == "index" %}
+    	
+    	{% include masthead-quote.html %}
+
+    {% else %}
+
+    	{% include masthead.html %}
+
+    {% endif %}
+    
+    {{ content }}
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
