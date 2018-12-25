@@ -431,15 +431,17 @@ a.donate {
 .logo_wrapper {
   text-align: center;
   position: relative;
-  z-index: 9016; }
+  z-index: 9016;
+  width: 75%;
+  max-width: 300px;
+  margin: 0 auto; }
   @media screen and (min-width: 767px) {
     .logo_wrapper {
-      width: 20%;
-      margin: 0 auto; } }
+      max-width: 375px; } }
   .logo_wrapper a {
     color: #000; }
   .logo_wrapper .logo {
-    padding: 15px 0 7px; }
+    padding: 25px 25px 5px; }
   .logo_wrapper .logo_text {
     font-size: 12px;
     line-height: 16px;

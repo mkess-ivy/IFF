@@ -3,9 +3,12 @@
 	text-align: center;
 	position: relative;
 	z-index: 9016;
+	width: 75%;
+	max-width: 300px;
+	margin: 0 auto;
 	@include tablet {
-		width: 20%;
-		margin: 0 auto;
+		max-width: 375px;
+		
 	}
 
 
@@ -14,7 +17,8 @@
 	}
 
 	.logo {
-		padding: 15px 0 7px;
+		padding: 25px 25px 5px;
+
 	}
 
 	.logo_text {
