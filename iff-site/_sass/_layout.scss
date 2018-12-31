@@ -1,26 +1,37 @@
 // Logo 
 .logo_wrapper {
-	text-align: center;
 	position: relative;
-	z-index: 9016;
-	width: 75%;
-	max-width: 300px;
-	margin: 0 auto;
-	@include tablet {
-		max-width: 375px;
-		
+	width: 100%;
+	text-align: center;
+
+	&.footer {
+		text-align: center;
 	}
-
-
+	
 	a {
 		color: #000;
 	}
-
 	.logo {
-		padding: 25px 25px 5px;
+		display: none;
 
+		@include tablet {
+			max-width: 525px;
+			display: block;
+		}
 	}
+	.logo_mobile {
+		display: block;
+		margin: 0 auto;
+		width: 175px;
 
+		@include tablet {
+			display: none;
+		}
+	}
+	.logo_footer {
+		margin: 0 auto;
+		width: 200px;	
+	}
 	.logo_text {
 		font-size: 12px;
 		line-height: 16px;

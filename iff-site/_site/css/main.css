@@ -42,11 +42,7 @@
 
 .main_header {
   border-top: #7A3028 4px solid;
-  text-align: center;
   position: relative; }
-  @media screen and (min-width: 767px) {
-    .main_header {
-      margin-bottom: 25px; } }
   .main_header .menu_btn {
     color: #7A3028;
     display: block;
@@ -429,19 +425,29 @@ a.donate {
   clear: both; }
 
 .logo_wrapper {
-  text-align: center;
   position: relative;
-  z-index: 9016;
-  width: 75%;
-  max-width: 300px;
-  margin: 0 auto; }
-  @media screen and (min-width: 767px) {
-    .logo_wrapper {
-      max-width: 375px; } }
+  width: 100%;
+  text-align: center; }
+  .logo_wrapper.footer {
+    text-align: center; }
   .logo_wrapper a {
     color: #000; }
   .logo_wrapper .logo {
-    padding: 25px 25px 5px; }
+    display: none; }
+    @media screen and (min-width: 767px) {
+      .logo_wrapper .logo {
+        max-width: 525px;
+        display: block; } }
+  .logo_wrapper .logo_mobile {
+    display: block;
+    margin: 0 auto;
+    width: 175px; }
+    @media screen and (min-width: 767px) {
+      .logo_wrapper .logo_mobile {
+        display: none; } }
+  .logo_wrapper .logo_footer {
+    margin: 0 auto;
+    width: 200px; }
   .logo_wrapper .logo_text {
     font-size: 12px;
     line-height: 16px;

@@ -1,11 +1,6 @@
 .main_header {
 	border-top: $red 4px solid;
-	text-align: center;
 	position: relative;
-
-	@include tablet {
-		margin-bottom: 25px;
-	}
 
 	.menu_btn {
 		color: $red;
