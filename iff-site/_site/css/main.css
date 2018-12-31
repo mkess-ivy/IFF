@@ -156,7 +156,7 @@ body.noScroll {
 
 .overlay_container {
   position: relative;
-  height: 100vh; }
+  height: 80vh; }
 
 .overlay {
   position: fixed;
@@ -239,7 +239,7 @@ body.noScroll {
   right: 0;
   left: 0;
   margin: auto;
-  top: 120px; }
+  top: 200px; }
   @media screen and (min-width: 767px) {
     .overlay-close {
       right: 40px;
@@ -327,7 +327,8 @@ ul.nav li a:hover {
   position: absolute;
   right: 0;
   left: 0;
-  bottom: 30px; }
+  bottom: 30px;
+  text-align: center; }
 
 .menu_quote {
   font-size: 14px;
@@ -452,6 +453,14 @@ a.donate {
     font-size: 12px;
     line-height: 16px;
     -webkit-font-smoothing: antialiased; }
+
+.overlay_logo {
+  background-color: #FFFFFF;
+  border-top: 4px solid #7A3028;
+  padding-bottom: 75px; }
+  @media screen and (min-width: 767px) {
+    .overlay_logo {
+      padding-bottom: 0; } }
 
 .copy, .family_col {
   font-size: 18px;

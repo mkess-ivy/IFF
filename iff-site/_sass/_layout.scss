@@ -38,6 +38,14 @@
 		-webkit-font-smoothing: antialiased;
 	}	
 }
+.overlay_logo {
+	background-color: $white;
+	border-top: 4px solid $red;
+	padding-bottom: 75px;
+	@include tablet {
+		padding-bottom: 0;
+	}
+}
 
 // Home Navigation Section
 .copy {

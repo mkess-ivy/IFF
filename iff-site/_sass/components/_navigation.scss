@@ -48,7 +48,7 @@ body.noScroll {
 
 .overlay_container {
 	position: relative;
-	height: 100vh;
+	height: 80vh;
 }
 .overlay { 
   position: fixed;
@@ -134,7 +134,8 @@ body.noScroll {
   right: 0;
   left: 0;
   margin: auto;
-  top: 120px;
+  // top: 120px;
+  top: 200px;
  
   @include tablet {
     right: 40px; 
@@ -226,6 +227,7 @@ ul.nav li a:hover {
 	right: 0;
 	left: 0;
 	bottom: 30px;
+  text-align: center;
 }
 .menu_quote {
 	font-size: 14px;
