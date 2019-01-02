@@ -1,2 +1,9 @@
 @import "variables";
 @import "mixins";
+
+.newsletter {
+	background-image: url('/img/newsletter_cover.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
