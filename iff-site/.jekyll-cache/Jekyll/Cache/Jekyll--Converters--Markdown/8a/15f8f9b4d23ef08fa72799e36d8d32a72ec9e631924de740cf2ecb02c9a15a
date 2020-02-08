@@ -1,13 +1,5 @@
----
-layout: default
-title: Who We Are
-permalink: /who-we-are/
-
-masthead_bg: "/img/hero_whoweare002.jpg"
----
-
-<div class="frow wrapper">
-	<!-- <div class="section_title">{{ page.title }}</div> -->
+I"n<div class="frow wrapper">
+	<!-- <div class="section_title">Who We Are</div> -->
 
 	<div class="frow family_wrapper">
 		<div class="col-sm-1-2 family_col">
@@ -45,3 +37,4 @@ masthead_bg: "/img/hero_whoweare002.jpg"
 	</div>
 
 </div>
+:ET
