@@ -1,14 +1,6 @@
----
-layout: default
-title: Get Involved
-permalink: /get-involved/
-
-masthead_bg: /img/hero_getinvolved002.jpg
----
-
-<div class="blue_layout">
+I"ª<div class="blue_layout">
 	<div class="frow wrapper">
-		<!-- <div class="section_title title_get_involved">{{ page.title }}</div> -->
+		<!-- <div class="section_title title_get_involved">Get Involved</div> -->
 
 		<div class="frow">
 
@@ -23,7 +15,7 @@ masthead_bg: /img/hero_getinvolved002.jpg
 			<div class="col-sm-2-5 donate_wrapper">
 				<div class="donate_title">Online</div>
 
-				<a class="cta donate" href="https://donate.justgiving.com/donation-amount?uri=aHR0cHM6Ly9kb25hdGUtYXBpLmp1c3RnaXZpbmcuY29tL2FwaS9kb25hdGlvbnMvOTkzZDNiOTk1ODlkNDE4ZGEyOTIzY2EzNDkxZDI3NTA=" target="_blank">
+				<a class="cta donate" href="https://www.justgiving.com/ingramfamilyfoundationinc">
 					<div>Donate</div>
 				</a>
 				
@@ -45,3 +37,4 @@ masthead_bg: /img/hero_getinvolved002.jpg
 	
 	
 </div>
+:ET
