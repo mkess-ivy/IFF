@@ -22,7 +22,7 @@
 	.logo_mobile {
 		display: block;
 		margin: 0 auto;
-		width: 175px;
+		width: 125px;
 
 		@include tablet {
 			display: none;
@@ -41,7 +41,7 @@
 .overlay_logo {
 	background-color: $white;
 	border-top: 4px solid $red;
-	padding-bottom: 75px;
+	// padding-bottom: 75px;
 	@include tablet {
 		padding-bottom: 0;
 	}

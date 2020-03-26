@@ -48,7 +48,7 @@ body.noScroll {
 
 .overlay_container {
 	position: relative;
-	height: 80vh;
+	height: 57vh;
 }
 .overlay { 
   position: fixed;
@@ -58,7 +58,7 @@ body.noScroll {
   left: 0;
   background-position: bottom left;
   background-color: $blue;
-  z-index: 9009; 
+  z-index: 9000; 
 }
 .overlay nav { 
   text-align: center;
@@ -80,9 +80,13 @@ body.noScroll {
   margin-bottom: 7px;
   font-family: $brand-font;
   font-size: 30px;
-  line-height: 60px;
+  line-height: 40px;
   text-transform: lowercase;
   -webkit-font-smoothing: antialiased;
+
+  @include small {
+    line-height: 50px;
+  }
   
   @include tablet {
     width: auto;
@@ -226,8 +230,12 @@ ul.nav li a:hover {
 	position: absolute;
 	right: 0;
 	left: 0;
-	bottom: 30px;
+  bottom: -100px;
   text-align: center;
+
+  @include small {
+    bottom: -125px;
+  }
 }
 .menu_quote {
 	font-size: 14px;
