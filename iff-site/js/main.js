@@ -28,7 +28,25 @@ $(document).ready(function(){
 	// Change Logo text when menu is active
 	$("#overlay-menu").click(function() {
 		$(".logo_text").css("color", "#fff");
-	});
+  });
+  
+  // Function for close the Modal
+
+function closeModal(){
+  $(".mask").removeClass("active");
+}
+
+// Call the closeModal function on the clicks/keyboard
+
+$(".popup-close, .mask").on("click", function(){
+  closeModal();
+});
+
+$(document).keyup(function(e) {
+  if (e.keyCode == 27) {
+    closeModal();
+  }
+});
 
   // Close and open overlay menu
   $(".overlay-close").click(function() {
