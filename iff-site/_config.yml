@@ -7,3 +7,6 @@ url: "http://www.theingramfamilyfoundation.org" # the base hostname & protocol f
 
 # Build settings
 markdown: kramdown
+
+# Site Variables
+donate_link: https://www.justgiving.com/ingramfamilyfoundationinc

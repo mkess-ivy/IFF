@@ -1,40 +1,27 @@
-I"$<div class="blue_layout">
+I"X<div class="blue_layout">
 	<div class="frow wrapper">
-		<!-- <div class="section_title title_get_involved">Get Involved</div> -->
-
 		<div class="frow">
-
 			<div class="col-sm-3-5 copy">
 				<p>The Ingram Family Foundation is a 501(c)(3) organization.  Our journey starts with your tax deductible contribution.</p>
 			</div>
 		</div>
-
 		<div class="section_title title_get_involved">To Donate</div>
-
 		<div class="frow wrapper">
 			<div class="col-sm-2-5 donate_wrapper">
 				<div class="donate_title">Online</div>
-
-				<a class="cta donate" href="https://donate.justgiving.com/donation-amount?uri=aHR0cHM6Ly9kb25hdGUtYXBpLmp1c3RnaXZpbmcuY29tL2FwaS9kb25hdGlvbnMvOTkzZDNiOTk1ODlkNDE4ZGEyOTIzY2EzNDkxZDI3NTA=" target="_blank">
+				<a class="cta donate" href="https://www.justgiving.com/ingramfamilyfoundationinc" target="_blank">
 					<div>Donate</div>
 				</a>
-				
 			</div>
 			<div class="separator"></div>
 			<div class="col-sm-2-5 donate_wrapper">
 				<div class="donate_title">Mail</div>
-
 				<p>Please make checks payable to:</p>
-
 				Ingram Family Foundation, Inc.
 				P.O. Box 5780
 				Pikesville, Maryland 21282
-				
 			</div>
 		</div>
 	</div>
-
-	
-	
 </div>
 :ET
