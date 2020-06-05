@@ -10,3 +10,4 @@ markdown: kramdown
 
 # Site Variables
 donate_link: https://www.justgiving.com/ingramfamilyfoundationinc
+tree_icon: "/img/icon-tree.png"

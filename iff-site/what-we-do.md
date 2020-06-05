@@ -5,8 +5,6 @@ permalink: /what-we-do/
 
 masthead_bg: /img/hero_whatwedo.jpg
 
-tree_icon: "/img/icon-tree.png"
-
 span_desc_1: "We support"
 desc_1: " activities that have a direct impact on our community; activities that include a vision for a prosperous and equitable tomorrow."
 span_desc_2: "We sponsor"
@@ -24,7 +22,7 @@ question_3: "How do we get other organizations involved?"
 
 	<div class="separator_noline">&nbsp;</div>
 
-	<div class="icon"><img src="{{ page.tree_icon }}" /></div>
+	<div class="icon"><img src="{{ site.tree_icon }}" /></div>
 
 	<div class="frow">
 
@@ -39,7 +37,7 @@ question_3: "How do we get other organizations involved?"
 
 	<div class="separator_noline">&nbsp;</div>
 
-	<div class="icon"><img src="{{ page.tree_icon }}" /></div>
+	<div class="icon"><img src="{{ site.tree_icon }}" /></div>
 
 	<div class="separator_noline">&nbsp;</div>	
 
