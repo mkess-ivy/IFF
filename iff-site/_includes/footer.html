@@ -11,11 +11,9 @@
 			<!-- Navigation Menu -->
 			<ul class="list">
 				<div class="menu_header">navigation</div>
-				<li><a href="{{ site.baseurl }}/">Home</a></li>
-				<li><a href="{{ site.baseurl }}/who-we-are">Who We Are</a></li>
-				<li><a href="{{ site.baseurl }}/what-we-do">What We Do</a></li>
-				<li><a href="{{ site.baseurl }}/family-history">Family History</a></li>
-				<li><a href="{{ site.baseurl }}/get-involved">Get Involved</a></li>
+				{% for item in site.data.footer-menu %}
+				<li><a href="{{ item.url }}">{{ item.menu_title }}</a></li>
+				{% endfor %}
 			</ul>
 		</div>
 		<div class="separator"></div>

@@ -20,13 +20,10 @@
       <div class="menu_list_container">
         <nav>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="{{ site.baseurl }}/who-we-are">Who We Are</a></li>
-            <li><a href="{{ site.baseurl }}/what-we-do">What We Do</a></li>
-            <li><a href="{{ site.baseurl }}/family-history">Family History</a></li>
-            <li><a href="{{ site.baseurl }}/get-involved">Get Involved</a></li>
+            {% for item in site.data.header-menu %}
+            <li><a href="{{ item.url }}">{{ item.menu-title }}</a></li>
+            {% endfor %}
           </ul>
-          
         </nav>
       </div>
     </div><!-- .frow -->
