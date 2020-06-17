@@ -3,7 +3,9 @@
 	<div class="modal" role="alert">
 		  <button class="popup-close" role="button">X</button>
 		  <div class="popup-bg" style="background-image:url('{{ page.popup_bg }}');"></div>
-		  <div class="popup-msg">{{ page.popup_msg_1 }}<a href="{{ page.popup-link }}">{{ page.popup-link-text }}</a>  {{ page.popup_msg_2 }}</div>
+		  
+		  <div class="popup-msg">{{ page.popup_msg_1 }}<a href="{{ page.popup_link }}">{{ page.popup_link_text }}</a>{{ page.popup_msg_2 }}</div>
+		  
 		  <a class="popup-cta" href="{{ site.donate_link }}" target="_blank"><div>{{ page.donate_link_text }}</div></a>
 	</div>
 </div>
